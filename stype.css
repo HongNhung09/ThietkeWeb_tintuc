@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+}
+
+ /*  menu */
+ nav{
+    height: 80px;
+   
+ }
+ 
+nav ul {
+   
+    list-style: none;  
+    display: flex;
+    /*  căn giữa menu */
+    justify-content: center;
+   
+    margin-top: 20px;
+   
+   
+}
+nav ul li {
+   
+    margin: 0 20px;
+   
+
+}
+nav ul li a {
+   
+    /* Bỏ gach chân dưới thẻ a */
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+ 
+    
+}
+/* nav ul li a :hover{
+    text-decoration: underline;
+} */
+
+ 
+.carousel-inner  {
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 500px;
+   
+  }
+.content{
+    margin-top: 30px;
+    
+}
+
+ /* .post{
+    display: flex;
+     Hiển thị dòng kẻ ngang 
+    border-bottom: 2px solid #333;
+    padding: 5px 0;
+   
+}
+.post-content{
+    display: flex;
+    align-items: center; 
+}
+.post-detail h2{
+   
+    color: #777676;
+}
+.decoration{
+    font-size: 16px;
+    margin: 16px 0;
+    margin-top: 10px 0;
+     align-items: center; 
+}  */
+
+
+.small-row-left{
+    display: flex;
+    justify-content: space-between;
+     /*  Hiển thị dòng kẻ ngang  */
+     border-bottom: 1px solid #9a9595;
+}
+.small-row-left .left{
+    width: 500px;
+}
+.small-row-left .right{
+    width: 50px;
+    
+}
+.left img{
+    width: 200px;
+    margin: 10px 0;
+}
+p{
+    display: block;
+    align-items: center; 
+    color: rgb(6, 6, 6); 
+}
+
+
+/* .fakeimg1 img{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    margin: 20px 0;
+     
+} */
+
+.fakeimg1{
+      /*  Hiển thị dòng kẻ ngang  */
+      border-bottom: 1px solid #151414;
+      padding: 0px 10px;
+}
+
+.Other-posts{
+    margin: 20px 0;
+}
+
+.fakeimg img{
+    width: 700px;
+    height: 300px;
+}
+.fakeimg p{
+    text-align: center;
+}
+
+/*.........................  */
+.post-img{
+    width: 1500px;
+    /* height: 1500px; */
+}
+
+.product h2{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.product-list{
+    display: flex;
+    justify-content: space-between;
+}
+.product-items{
+    width: 32%;
+    
+}
+.product-items img{
+    width: 350px;
+    margin: 10px 0;
+}
+
+.product-items{
+   
+    transition: width 1s, height 2s;
+}
+.product-items:hover {
+    width: 400px;
+    height: 350px;
+}
+.footer img{
+   
+    background-color: black;
+    width: 1100px;
+    height: 350px;
+    margin: 10px 0;
+    
+}
